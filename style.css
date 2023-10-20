@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock{
+    width: 30vw;
+    height: 30vw;
+    border: 3.5vw dotted black;
+    border-radius: 50%;
+}
+.hands{
+    position: relative;
+    top:50%;
+}
+.hand{
+    width: 11vw;
+    position: absolute;
+    top: 49.6%;
+    left: 1%;
+    transform-origin: right;
+    height: 0.2vw;
+    background-color: black;
+}  
+
+.min{
+    
+    width: 8vw;
+    left: 14.1%;
+}
+.hour{
+    width: 6vw;
+    left: 23%;
+}
